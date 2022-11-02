@@ -18,6 +18,7 @@ it('should return a user constructor that correctly builds user objects', functi
   expect(user.password).toBe('LoveJS');
     expect(user.saludar()).toBe('Hola, mi nombre es Samuel');
 });
+
 });
 
 describe('agregarMetodoPrototype(Constructor)', function() {
